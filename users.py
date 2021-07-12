@@ -3,7 +3,7 @@
 
 ## This line of code is important. It's how your users.py program loads in your definition of the user class.
 ## Uncomment the line below for your program to run at all.
-# import user_class
+import user_class
 
 
 ## If the line below runs without error, you're able to make an instance of a user class.
@@ -21,10 +21,10 @@
 ## Now let's write a method called status_update that prints an update about a user's mood.
 ## For example, if we called this method on jolson615, it should print "I'm feeling Happy today."
 # jolson615.status_update()
-
+nick13 = user_class.User("Nicholas", "Bowen", 763463489, "Nick13@gmail.com", 89)
 ## let's finally write a method to try to change a user's password. It will take two arguments - the old password, and the new one.
 ## If the old password matches, it should change the password and print a success message.
-# jolson615.change_password("password1", "moosedogredpine")
+nick13.change_password("password1", "moosedogredpine")
 
 ## If the old password doesn't match, it should print an error message.
-# sarah773.change_password("mango", "mygreatnewpassword")
+nick13.change_password("mango", "mygreatnewpassword")
